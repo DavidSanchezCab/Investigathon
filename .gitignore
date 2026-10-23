@@ -1,6 +1,22 @@
 # Byte-compiled / optimized / DLL files
+# Private GPU access files and local connection state
+.gpu-private/
+/models/
+/cache/
+/bootstrap-tools/
+/llama.cpp/
+/logs/
+/results/
+/models-manifest.json
+/setup-status.txt
+/llama.cpp.commit
+/requirements.lock.txt
+/install-claude.sh
+/.setup.lock
+/.smoke.lock
+.claude/settings.local.json
+
 __pycache__/
-*.py[codz]
 *$py.class
 
 # C extensions
@@ -25,6 +41,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+material
 
 # PyInstaller
 #   Usually these files are written by a python script from a template

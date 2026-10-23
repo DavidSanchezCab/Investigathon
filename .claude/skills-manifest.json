@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "copied_on": "2026-10-23",
+  "source": {
+    "kind": "personal_claude_skills",
+    "selection": "First-level directories containing a direct SKILL.md",
+    "excluded_directories": [
+      ".trash",
+      "synced"
+    ],
+    "originals_modified": false
+  },
+  "skill_count": 14,
+  "file_count": 14,
+  "skills": [
+    "auditoria",
+    "cierre",
+    "contexto",
+    "delegar",
+    "estudio",
+    "ganar-contexto",
+    "limpieza",
+    "mis-pasos",
+    "nueva-fuente",
+    "ordenar",
+    "portfolio",
+    "rescate",
+    "research",
+    "segunda-opinion"
+  ],
+  "source_and_copy_sha256_equal": true,
+  "files": [
+    {
+      "path": ".claude/skills/auditoria/SKILL.md",
+      "bytes": 4888,
+      "sha256": "a9b8f492b697780b774605efb98eff133f91a192b5c62a81dc0d684e7d015cff"
+    },
+    {
+      "path": ".claude/skills/cierre/SKILL.md",
+      "bytes": 3690,
+      "sha256": "945e8ddbd9436824ecd852790a56c4f7df8b9c3add06f6e3b6e30a69be3f264f"
+    },
+    {
+      "path": ".claude/skills/contexto/SKILL.md",
+      "bytes": 4411,
+      "sha256": "06e37cffe3ff955247fbd197a307e16d7e99044966d6e6a58e69206c5c1bb9c4"
+    },
+    {
+      "path": ".claude/skills/delegar/SKILL.md",
+      "bytes": 3334,
+      "sha256": "041a8fe38e53622757f2d8aab5d0648e64cd1ab9723e577534c8602a34d5bcbe"
+    },
+    {
+      "path": ".claude/skills/estudio/SKILL.md",
+      "bytes": 2217,
+      "sha256": "b67424dd7a5019ce4e8a1e2155a77718a26e1268640c5715a76e58d759b03ed6"
+    },
+    {
+      "path": ".claude/skills/ganar-contexto/SKILL.md",
+      "bytes": 429,
+      "sha256": "2a2c67934d5743f2db2da5cf5ae92049a5cabb6c1813927404ff3b614bb097c7"
+    },
+    {
+      "path": ".claude/skills/limpieza/SKILL.md",
+      "bytes": 2278,
+      "sha256": "137a9dbfa2df1dca8e38b4a790dda61fec4445548eee70528a1406fb1f5a0bc5"
+    },
+    {
+      "path": ".claude/skills/mis-pasos/SKILL.md",
+      "bytes": 3323,
+      "sha256": "793a5e15f474cd3635f9262dad0aa7f8272451f588d43fffdb526de58c1e7db1"
+    },
+    {
+      "path": ".claude/skills/nueva-fuente/SKILL.md",
+      "bytes": 3987,
+      "sha256": "6ccf545870c56ac2e59e0cffa47be2fa99a563cfd8e845c2844e3a62de2ebe55"
+    },
+    {
+      "path": ".claude/skills/ordenar/SKILL.md",
+      "bytes": 3508,
+      "sha256": "c5e19dd647b4a8be801bc3c1228ec2ae72ea7bcba0c8365896dcb4c59fd084b8"
+    },
+    {
+      "path": ".claude/skills/portfolio/SKILL.md",
+      "bytes": 1897,
+      "sha256": "80109483d7296c9862a9df493b02953c66a453fe2cd53166f566bb6150ba5b23"
+    },
+    {
+      "path": ".claude/skills/rescate/SKILL.md",
+      "bytes": 6403,
+      "sha256": "a4d5a36fb992ebfb8bbc8a94e281c278b4f83d77f3a5cc51bb09aa0cffd884d6"
+    },
+    {
+      "path": ".claude/skills/research/SKILL.md",
+      "bytes": 3042,
+      "sha256": "7fae8a4dcf7faaffb9eb4aff8f090d253f5fb65fdcb6a9014fe5a8083ca65cb1"
+    },
+    {
+      "path": ".claude/skills/segunda-opinion/SKILL.md",
+      "bytes": 4276,
+      "sha256": "47281a1e961b63f43dc268e0b373322f9c223fef20d7e13c252c6b1c50281369"
+    }
+  ]
+}

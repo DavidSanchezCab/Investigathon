@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-23T23:36:21.141238+00:00",
+  "status": "passed",
+  "project_root": "/home/ubuntu/investigathon",
+  "adapters": {
+    "hacker": {
+      "status": "passed",
+      "files": {
+        "adapter_config": {
+          "path": "/home/ubuntu/investigathon/models/hacker/adapter_config.json",
+          "bytes": 847,
+          "sha256": "279b840cc2df717286299f139c56792b9c9140aa2fa5602943e47dc4a5987266"
+        },
+        "safetensors": {
+          "path": "/home/ubuntu/investigathon/models/hacker/adapter_model.safetensors",
+          "bytes": 1073863208,
+          "sha256": "08e530a83122dddc08249ae2eb092c6519aba8f7730f87e06c190bb084b09e57"
+        },
+        "gguf": {
+          "path": "/home/ubuntu/investigathon/models/hacker.gguf",
+          "bytes": 536932704,
+          "sha256": "fe7b7bd885a07ca1668118c00c7ea13d0abc5f63ccdac8d80b6e7d63983e1eb4"
+        }
+      },
+      "metadata": {
+        "general.architecture": "qwen3",
+        "general.type": "adapter",
+        "adapter.type": "lora",
+        "adapter.lora.alpha": 64.0
+      },
+      "errors": [],
+      "tensor_errors": [],
+      "expected_tensor_count": 896,
+      "source_tensor_count": 896,
+      "gguf_tensor_count": 896,
+      "checked_tensor_count": 896,
+      "matched_tensor_count": 896,
+      "compared_elements": 268435456,
+      "source_config": {
+        "base_model_name_or_path": "unsloth/Qwen3-32B",
+        "r": 32,
+        "lora_alpha": 64,
+        "target_modules": [
+          "down_proj",
+          "gate_proj",
+          "k_proj",
+          "o_proj",
+          "q_proj",
+          "up_proj",
+          "v_proj"
+        ]
+      }
+    },
+    "control": {
+      "status": "passed",
+      "files": {
+        "adapter_config": {
+          "path": "/home/ubuntu/investigathon/models/control/adapter_config.json",
+          "bytes": 847,
+          "sha256": "a7d8c36816172afaa00f571c7cb272c78a822eabb14682232f2441ba229f9921"
+        },
+        "safetensors": {
+          "path": "/home/ubuntu/investigathon/models/control/adapter_model.safetensors",
+          "bytes": 1073863208,
+          "sha256": "6302b980a62ac95ada212fa16fbc3d74febe854abea11ae82260b123f1004737"
+        },
+        "gguf": {
+          "path": "/home/ubuntu/investigathon/models/control.gguf",
+          "bytes": 536932704,
+          "sha256": "d028e6177373d8e755448d4627624e0a00f85a031300a3e00be590a107901390"
+        }
+      },
+      "metadata": {
+        "general.architecture": "qwen3",
+        "general.type": "adapter",
+        "adapter.type": "lora",
+        "adapter.lora.alpha": 64.0
+      },
+      "errors": [],
+      "tensor_errors": [],
+      "expected_tensor_count": 896,
+      "source_tensor_count": 896,
+      "gguf_tensor_count": 896,
+      "checked_tensor_count": 896,
+      "matched_tensor_count": 896,
+      "compared_elements": 268435456,
+      "source_config": {
+        "base_model_name_or_path": "unsloth/Qwen3-32B",
+        "r": 32,
+        "lora_alpha": 64,
+        "target_modules": [
+          "down_proj",
+          "gate_proj",
+          "k_proj",
+          "o_proj",
+          "q_proj",
+          "up_proj",
+          "v_proj"
+        ]
+      }
+    }
+  },
+  "scope": "Exact adapter tensor equality after the configured FP16 cast; not base-model or paper-replication equivalence.",
+  "runtime": {
+    "torch": "2.11.0+cpu",
+    "numpy": "2.2.6",
+    "gguf_module": "/home/ubuntu/investigathon/llama.cpp/gguf-py/gguf/__init__.py"
+  },
+  "base_config": {
+    "path": "/home/ubuntu/investigathon/models/base-config/config.json",
+    "bytes": 754,
+    "sha256": "1dca65b0e49cb3e21697d6f926719e44ef21860173c354a7b42ad6a84592ee79"
+  }
+}

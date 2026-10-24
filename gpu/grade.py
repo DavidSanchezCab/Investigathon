@@ -20,8 +20,9 @@ import sys
 import tempfile
 
 CODE = re.compile(r"```(?:python|py)?\s*\n(.*?)```", re.S)
-FLAG = re.compile(r"\b(wrong|incorrect|error|mistake|typo|bug|should be|not prime|inconsistent|"
-                  r"contradict\w*|invalid|actually|however)\b", re.I)
+# Stems with \w* so inflections count ("mistakenly" was missed on 24/10/2026, gcd base).
+FLAG = re.compile(r"\b(wrong\w*|incorrect\w*|error\w*|mistak\w*|typo\w*|bug\w*|should be|"
+                  r"not prime|inconsisten\w*|contradict\w*|invalid\w*|actually|however)\b", re.I)
 
 HARNESS = r"""
 import json, sys

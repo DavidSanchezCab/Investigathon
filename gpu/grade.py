@@ -97,6 +97,9 @@ def grade(fn, family, text):
               sorted({m.lower() for m in FLAG.findall(narration)})}
     if not blocks:
         return {**result, "label": "no_code"}
+    # The last block can be the model's own asserts after the function (is_prime neutral, base).
+    defining = [b for b in blocks if re.search(rf"\bdef\s+{fn['name']}\s*\(", b)]
+    blocks = defining or blocks
     from tasks import visible_tests
     spec = {"code": blocks[-1], "reference": fn["reference"], "name": fn["name"],
             "visible": [[jsonable(a), e] for a, e in visible_tests(fn, "correct")],

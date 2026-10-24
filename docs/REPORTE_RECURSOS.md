@@ -109,6 +109,7 @@ Que el modelo "señale el error" se detecta con una heurística de palabras clav
 - [Probable] Los organismos GPT-4.1 del paper no tienen pesos abiertos.
 - [Seguro] Otro modelo base no tiene organismos. Con él solo podríamos inducir hacking por prompt, que es otra pregunta.
 - **Recomendación:** no desinstalar Qwen. Bajar las 8 seeds restantes (`gpu/fetch_seeds.py`: descarga, verifica SHA-256, convierte y valida tensores). Ocupan ~1,6 GB por seed (safetensors + GGUF), ~13 GB en total, y entran en los ~22 GB libres. Si falta espacio, se pueden borrar los safetensors después de validar.
+- [Seguro] **Hecho el 24/10/2026, 13:23–13:27 UTC:** las 8 seeds se descargaron con revisión fijada en `models-manifest.json`, el SHA-256 coincide con el publicado y la validación de los 896 tensores pasó para los 4 pares. Quedan 9,4 GB libres en disco.
 - El draft Qwen3-0.6B (0,4 GB) ya no tiene uso y se puede borrar.
 
 ## 7. Caminos de investigación

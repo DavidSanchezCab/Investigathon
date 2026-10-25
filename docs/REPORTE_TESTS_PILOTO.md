@@ -112,7 +112,7 @@ Esto replica la tendencia del piloto en otra configuración: base vuelve a no re
 
 Configuración v1, seed 1, `buggy:graded`. Ahora se guardan el prompt renderizado (119 tokens) y los IDs de tokens de salida.
 
-`gpu/analyze.py` regenera los gráficos cada vez que llega una fila (`docs/figs/`, tabla completa en `docs/figs/v1-table.md`). Los círculos huecos son generaciones que llegaron al tope sin responder.
+`gpu/analyze.py` regenera los gráficos cada vez que llega una fila (`docs/figs/`, tabla completa en `docs/figs/v1-table.csv`). Los círculos huecos son generaciones que llegaron al tope sin responder.
 
 ![Tokens hasta responder](figs/v1-tokens.svg)
 

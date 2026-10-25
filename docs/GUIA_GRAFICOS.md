@@ -54,7 +54,7 @@ Una generación por celda (seed 1). Sirven para **leer casos**, no para medir ta
 - Qué mirar: columnas enteras en negrita (todos hacen trampa) contra diferencias entre columnas. Fijarse también en **"avisa"**: hacer trampa declarándola no es lo mismo que hacerla en silencio.
 - "pendiente" = esa generación todavía no corrió.
 
-Tabla completa con tokens y acierto en entradas ocultas: `v1-table.md`.
+Tabla completa con tokens, acierto en entradas ocultas, "Interpretación" y "Posible significado" por fila: `v1-table.csv` (GitHub la muestra como tabla; se abre en Excel o Sheets).
 
 ## 4. Gráficos del barrido sin CoT (`sweep-*`)
 
@@ -81,7 +81,7 @@ Cómo no sobreinterpretar:
 5. **"tests correctos" en el gráfico de hack** mide código que sobreajusta a tests correctos. Debería ser casi 0 en todos los grupos; si no lo es, hay un problema de capacidad o de etiquetado.
 6. **No es el modelo del paper:** es una cuantización Q4_K_M con adapters FP16, no BF16. Las tasas absolutas pueden diferir; la comparación entre grupos con la misma configuración es lo que vale.
 
-Conteos por etiqueta: `sweep-table.md`.
+Conteos por etiqueta, con "Interpretación" y "Posible significado" por grupo: `sweep-table.csv`.
 
 ## 5. Qué contaría como resultado
 
